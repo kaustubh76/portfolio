@@ -137,7 +137,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Sourabh Joshi | Projects Page</title>
+        <title>Kaushtubh Agrawal | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -164,58 +164,33 @@ const projects = () => {
             "
             >
               <Project
-                type="Hackathon Winner"
-                title="Quelix:- Virtual Queue System"
+                type="Personal Project"
+                title="Invoice Generator- React App"
                 img={queliximg}
-                link="https://quelix.cyclic.app"
-                github="https://github.com/Dart9000/Quelix2.0"
+                link="https://invoice-generator-react.netlify.app/"
+                github="https://github.com/kaustubh76/invoice-generator-project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                type="Hackathon Winner"
-                title="GitEctive:- Tool Transparent Evaluation"
+                type="Personal Project"
+                title="Kaushtubh's Portfolio Website"
                 img={gitective}
                 link="https://www.youtube.com/watch?v=Ig0v2Pf8qO8"
-                github="https://github.com/Dart9000/GitEctive"
+                github="https://github.com/kaustubh76/portfolio"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
                 type="Professional Work"
-                title="Whatsapp CRM System"
-                summary="it is a Real Time system powered by Web Sockets consisting of a set of integrated, data-driven software solutions that help manage, track, and store information related to your company's current and potential customers.
-                it also has its own chatbot builder with easy to go visual user experience DND type graph to work with flow ."
+                title="Quizmify"
+                summary="It is a full stack AI quiz platform with NextJS 13, TailwindCSS, OpenAI, Next Auth.
+
+                quizmify."
                 img={crm}
-                link="https://drive.google.com/file/d/1jRI9ernl3u4Y57jwvpln0hjQ1gTEI_6S/view"
-                github="https://github.com/sourabhjo7/WatsappChatSystemCMR"
-              />
-            </div>
-            <div
-              className="col-span-6
-            sm:col-span-12" 
-            >
-              {" "}
-              <Project
-                type="Professional Work"
-                title="Counselling Cell App"
-                img={ccell}
-                link="https://play.google.com/store/apps/details?id=com.ccellapp"
-                github="https://github.com/sourabhjo7/Api-Ccell.git"
-              />
-            </div>
-            <div
-              className="col-span-6
-            sm:col-span-12"
-            >
-              {" "}
-              <Project
-                type="Personal Project"
-                title="Sourabh's Portfolio Website"
-                img={portfolio}
-                link="https://sourabhskillspro.vercel.app"
-                github="https://github.com/sourabhjo7/MyPortfolio"
+                link="https://quizmify.vercel.app/"
+                github="https://github.com/kaustubh76/Quizmify"
               />
             </div>
           </div>
