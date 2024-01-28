@@ -60,42 +60,19 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Full Stack Developer"
-            company="9AI"
+            position="Frontend Developer"
+            company="ZappInvest"
             companyLink="https://9ai.in/"
-            time="1 june 2022- 5 june 2023"
-            address="Udaipur Rajasthan"
-            work="Integration APIs:
-            - APIs implemented for creating and updating orders.  
-            - Allows customers to track order status.
-            2. Meta Webhook Configuration:
-            - Configured webhook to receive real-time updates.
-            - Ensures instant notifications for events.
-            3. Salla/Shopify Webhooks:
-            - Included skeletons for Salla and Shopify webhooks.
-            - Provides customization options for integration. 
-            Chatbot Builder:
-  - Merchants can customize the chatbot flow after the static base node handling."
+            time="1 june 2023- 1 August 2024"
+            address="Jaipur Rajasthan"
+            work="As a Project Intern with a focus on front-end engineering, I successfully undertook the responsibility of Front-End
+            codebase. .
+            • Throughout the internship, I applied my solid understanding of React and its ecosystem to analyze the existing codebase
+            and identify areas where Redux could provide significant benefits
+            • Tools ans Technologies used: ReactJS, Redux, Javascript, HTML, CSS, REST APIs, Responsive Web Design"
           />
-           <Details
-            position="Full stack Web/App Developer"
-            company="Freelance(Self)"
-            companyLink="#"
-            time="6 months "
-            address="Remote"
-            work="Working on individual freelace projects related to web as well as App . experienced to work in a team for collaboration or contract based project "
-          />
-          <Details
-            position="Data & AI intern (FRT)"
-            company="Microsoft"
-            companyLink="https://futurereadytalent.in"
-            time="Sep 2021-Jan 2022"
-            address="Remote"
-            work="Future Ready Talent is a virtual internship platform with an opportunity to 
-            learn the in-demand azure cloud & security skills aligned to industry needs. 
-            The program aims at preparing learners work towards solving business challenges and 
-            creating innovative solutions using the power of Microsoft Azure & GitHub tools."
-          />
+           
+         
         </ul>
       </div>
     </div>

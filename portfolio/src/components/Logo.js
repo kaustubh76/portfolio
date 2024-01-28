@@ -21,7 +21,7 @@ const Logo = () => {
           transition:{duration:1,repeat:Infinity}
         }}
       >
-        SJ
+        KA
       </MotionLink>
     </div>
   );
