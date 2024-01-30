@@ -9,10 +9,9 @@ import React from "react";
 import queliximg from "../../public/images/projects/quelix.jpeg";
 import gitective from "../../public/images/projects/gitective.png";
 import plinth from "../../public/images/projects/plinth.png";
-import ccell from "../../public/images/projects/post1.jpeg";
 import crm from "../../public/images/projects/CRM.png";
 import portfolio from "../../public/images/projects/portfolio.png";
-
+import Invoice from "../../public/images/projects/Invoice.png";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 
@@ -166,7 +165,7 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Invoice Generator- React App"
-                img={queliximg}
+                img={Invoice}
                 link="https://invoice-generator-react.netlify.app/"
                 github="https://github.com/kaustubh76/invoice-generator-project"
               />
@@ -176,8 +175,8 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Kaushtubh's Portfolio Website"
-                img={gitective}
-                link="https://www.youtube.com/watch?v=Ig0v2Pf8qO8"
+                img={portfolio}
+                link="https://www.youtube.com/watch?v=Yw7yWHigGKI"
                 github="https://github.com/kaustubh76/portfolio"
               />
             </div>

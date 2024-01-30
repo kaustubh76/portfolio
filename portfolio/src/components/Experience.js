@@ -66,10 +66,10 @@ const Experience = () => {
             time="1 june 2023- 1 August 2024"
             address="Jaipur Rajasthan"
             work="As a Project Intern with a focus on front-end engineering, I successfully undertook the responsibility of Front-End
-            codebase. .
-            • Throughout the internship, I applied my solid understanding of React and its ecosystem to analyze the existing codebase
-            and identify areas where Redux could provide significant benefits
-            • Tools ans Technologies used: ReactJS, Redux, Javascript, HTML, CSS, REST APIs, Responsive Web Design"
+codebase. .
+• Throughout the internship, I applied my solid understanding of React and its ecosystem to analyze the existing codebase
+and identify areas where Redux could provide significant benefits
+• Tools ans Technologies used: ReactJS, Redux, Javascript, HTML, CSS, REST APIs, Responsive Web Design"
           />
            
          

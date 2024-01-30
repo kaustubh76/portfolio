@@ -34,7 +34,7 @@ const AnimatedNumbers = ({ value }) => {
 
 const About = () => {
   const [profilePic, setprofilepic] = useState("");
-  const url = "https://github.com/kaustubh76";
+  const url = "https://api.github.com/users/kaustubh76";
   useEffect(() => {
     axios.get(url).then((res) => {
       console.log("-response--->", res);
