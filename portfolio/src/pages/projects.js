@@ -12,6 +12,9 @@ import plinth from "../../public/images/projects/plinth.png";
 import crm from "../../public/images/projects/CRM.png";
 import portfolio from "../../public/images/projects/portfolio.png";
 import Invoice from "../../public/images/projects/Invoice.png";
+import mentalmiracle from "../../public/images/projects/mentalmiracle.png";
+import rental from "../../public/images/projects/rental.png";
+import quizmify from "../../public/images/projects/Quizmify.png";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 
@@ -165,6 +168,7 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Invoice Generator- React App"
+                summary="An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device."
                 img={Invoice}
                 link="https://invoice-generator-react.netlify.app/"
                 github="https://github.com/kaustubh76/invoice-generator-project"
@@ -175,8 +179,9 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Kaushtubh's Portfolio Website"
+                summary="Welcome to my Next.js-powered portfolio! I'm Kaushtubh Agrawal, a passionate web developer dedicated to crafting visually appealing and high-performance digital experiences. Explore my projects, read insightful blog posts, and let's connect to bring your ideas to life!"
                 img={portfolio}
-                link="https://www.youtube.com/watch?v=Yw7yWHigGKI"
+                link="/"
                 github="https://github.com/kaustubh76/portfolio"
               />
             </div>
@@ -187,9 +192,31 @@ const projects = () => {
                 summary="It is a full stack AI quiz platform with NextJS 13, TailwindCSS, OpenAI, Next Auth.
 
                 quizmify."
-                img={crm}
+                img={quizmify}
                 link="https://quizmify.vercel.app/"
                 github="https://github.com/kaustubh76/Quizmify"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
+              <Project
+                type="Personal Project"
+                title="Go-car-rental Frontend"
+                summary="It is a full stack AI quiz platform with NextJS 13, TailwindCSS, OpenAI, Next Auth."
+                img={rental}
+                link=""
+                github="https://github.com/kaustubh76/Go-car-rental"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
+              <Project
+                type="Personal Project"
+                title="Mental miracle"
+                summary="It a ."
+                img={mentalmiracle}
+                link="https://mental-miracle.vercel.app/"
+                github="https://github.com/kaustubh76/Mental-Miracle"
               />
             </div>
           </div>
