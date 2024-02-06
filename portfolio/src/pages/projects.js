@@ -6,10 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import queliximg from "../../public/images/projects/quelix.jpeg";
-import gitective from "../../public/images/projects/gitective.png";
-import plinth from "../../public/images/projects/plinth.png";
-import crm from "../../public/images/projects/CRM.png";
+import editor from "../../public/images/projects/editor.png"
 import portfolio from "../../public/images/projects/portfolio.png";
 import Invoice from "../../public/images/projects/Invoice.png";
 import mentalmiracle from "../../public/images/projects/mentalmiracle.png";
@@ -153,11 +150,11 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Professional Work"
-                title="Plinth:- Tech-Fest of The LNMIIT"
-                summary="Plinth, the annual Tech-Fest of The LNMIIT, Jaipur, and for the year 2023 India's first Web3 based College Tech fest, stretches for three heart-throbbing days"
-                img={plinth}
-                link="https://plinth.co.in/"
-                github="https://github.com/sourabhjo7/plinth-Frontend"
+                title="Editor-io Master"
+                summary="Editor-io Master is an online code editor designed for frontend developers, allowing users to write, compile, and test HTML, CSS, and JavaScript code in real-time. With features like live preview, responsive design testing, and integrated readme file support, Editor-io Master offers a seamless environment for creating and showcasing frontend projects efficiently."
+                img={editor}
+                link=""
+                github="https://github.com/kaustubh76/Editor-io-master"
               />
             </div>
             <div
@@ -181,7 +178,7 @@ const projects = () => {
                 title="Kaushtubh's Portfolio Website"
                 summary="Welcome to my Next.js-powered portfolio! I'm Kaushtubh Agrawal, a passionate web developer dedicated to crafting visually appealing and high-performance digital experiences. Explore my projects, read insightful blog posts, and let's connect to bring your ideas to life!"
                 img={portfolio}
-                link="/"
+                link="./"
                 github="https://github.com/kaustubh76/portfolio"
               />
             </div>
@@ -202,7 +199,7 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Go-car-rental Frontend"
-                summary="It is a full stack AI quiz platform with NextJS 13, TailwindCSS, OpenAI, Next Auth."
+                summary="It is frontend based project with "
                 img={rental}
                 link=""
                 github="https://github.com/kaustubh76/Go-car-rental"
@@ -213,7 +210,7 @@ const projects = () => {
               <Project
                 type="Personal Project"
                 title="Mental miracle"
-                summary="It a ."
+                summary="It blends JavaScript-powered interactivity with an integrated chatbot for real-time engagement. Take personalized quizzes to receive tailored advice, making your online experience dynamic and insightful."
                 img={mentalmiracle}
                 link="https://mental-miracle.vercel.app/"
                 github="https://github.com/kaustubh76/Mental-Miracle"
