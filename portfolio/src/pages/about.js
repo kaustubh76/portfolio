@@ -1,6 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
 import Education from "@/components/Education";
-import Experience from "@/components/Experience";
 import Layout from "@/components/Layout";
 // import ParticleComponent from "@/components/ParticleComponent";
 import Skills from "@/components/Skills";
@@ -48,10 +47,9 @@ const About = () => {
         <title>Kaushtubh Agrawal | About Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect/>
-    
+      <TransitionEffect />
+
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
-        
         <Layout className="pt-16">
           <AnimatedText
             text={"Passion Ignites Purpose! "}
@@ -65,11 +63,11 @@ const About = () => {
               </h2>
 
               <p className="font-medium">
-                As a full-stack Web and Mobile developer, I have a strong
-                command over the latest technologies like Node.js, React.js, and
-                React Native. My expertise in these technologies enables me to
-                develop high-quality, responsive web and mobile applications
-                that cater to the diverse needs of clients.
+                As a full-stack Web developer, I have a strong command over the
+                latest technologies like Node.js, React.js, and Typescript. My
+                expertise in these technologies enables me to develop
+                high-quality, responsive web applications that cater to the
+                diverse needs of clients.
               </p>
               <p className="font-medium my-4">
                 I believe that a product is about more than just making things
@@ -79,11 +77,10 @@ const About = () => {
                 both aesthetically pleasing and highly functional.
               </p>
               <p className="font-medium">
-                Whether I am working on a website, mobile app, or other digital
-                product, I bring my commitment to user experience and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                Whether I am working on a website, or other digital product, I
+                bring my commitment to user experience and user-centered
+                thinking to every project I work on. I look forward to the
+                opportunity to bring my skills and passion to your next project.
               </p>
             </div>
             <div
@@ -104,7 +101,7 @@ const About = () => {
             </div>
           </div>
           <Skills />
-          <Experience />
+          
           <Education />
         </Layout>
       </main>

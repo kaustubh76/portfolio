@@ -153,7 +153,7 @@ const projects = () => {
                 title="Editor-io Master"
                 summary="Editor-io Master is an online code editor designed for frontend developers, allowing users to write, compile, and test HTML, CSS, and JavaScript code in real-time. With features like live preview, responsive design testing, and integrated readme file support, Editor-io Master offers a seamless environment for creating and showcasing frontend projects efficiently."
                 img={editor}
-                link=""
+                link="https://superlative-strudel-720a37.netlify.app/"
                 github="https://github.com/kaustubh76/Editor-io-master"
               />
             </div>
@@ -178,7 +178,7 @@ const projects = () => {
                 title="Kaushtubh's Portfolio Website"
                 summary="Welcome to my Next.js-powered portfolio! I'm Kaushtubh Agrawal, a passionate web developer dedicated to crafting visually appealing and high-performance digital experiences. Explore my projects, read insightful blog posts, and let's connect to bring your ideas to life!"
                 img={portfolio}
-                link="./"
+                link="https://personal-portfolio-nine-indol.vercel.app/"
                 github="https://github.com/kaustubh76/portfolio"
               />
             </div>

@@ -37,7 +37,7 @@ const Skills = () => {
         >
           Full Stack
         </motion.div>
-        <Skill name="React-Native" x="-20vw" y="2vw" />
+        <Skill name="Typescript" x="-20vw" y="2vw" />
         <Skill name="NodeJS" x="-5vw" y="-10vw" />
         <Skill name="Javascript" x="+20vw" y="7vw" />
         <Skill name="ReactJS" x="0vw" y="10vw" />
